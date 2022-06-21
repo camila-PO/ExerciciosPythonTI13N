@@ -60,3 +60,4 @@ def exercicio08():
        media = "Sua média Final é: {}".format(nota1 + nota2 + nota3 / 3)
 
        return media
+#def exercio09():

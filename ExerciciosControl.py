@@ -55,7 +55,16 @@ def Executar():
                     print('Informe uma base com valor positivo')
 
             print(ExerciciosModel.exercicio03(this.bas,this.altura))
-
+        elif this.opcao == 4:
+            print(ExerciciosModel.exercicio04())
+        elif this.opcao == 5:
+            print(ExerciciosModel.exercicio05())
+        elif this.opcao == 6:
+            print(ExerciciosModel.exercicio06())
+        elif this.opcao == 7:
+            print(ExerciciosModel.exercicio07())
+        elif this.opcao == 8:
+            print(ExerciciosModel.exercicio08())
         elif this.opcao == 9:
             print('Por favor, informe a quantidade de maçãs compradas:')
             maca = int(input())
@@ -66,12 +75,29 @@ def Executar():
             print('valor total: R$ {}'.format(maca * valor))
             msgs = 'obrigado'
             return msgs
-        lista = []
-         for i in range (1,11):
-            valor = (float(input('digite um numero:'))
-            lista.append ()
-        return sorted(lista)
+
+        #elif this.opcao == 10:
+
+        #elif this.opcao == 11:
 
 
+        #elif this.opcao == 12:
+
+        elif this.opcao == 13:
+            print(ExerciciosModel.exercicio13())
+        elif this.opcao == 14:
+            print(ExerciciosModel.exercicio14())
+        elif this.opcao == 15:
+            print(ExerciciosModel.exercicio15())
+        elif this.opcao == 16:
+            print(ExerciciosModel.exercicio16())
+        elif this.opcao == 17:
+            print(ExerciciosModel.exercicio17())
+        elif this.opcao == 18:
+            print(ExerciciosModel.exercicio18())
+        elif this.opcao == 19:
+            print(ExerciciosModel.exercicio19())
+        elif this.opcao == 20:
+            print(ExerciciosModel.exercicio20())
         else:
-            print('Opção informada não é válida!')
+            print('Código digitado não é válido!')
